@@ -1,0 +1,66 @@
+/* Estilos generales */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Pacifico', fantasy;
+  background-color: #fff;
+  color: #7A288A; /* Morado */
+}
+
+/* Encabezado */
+
+header {
+  background-color: #F7F7F7;
+  color: #7A288A;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #7A288A;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Contenido principal */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #F7F7F7;
+  border: 1px solid #ddd;
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Pie de página */
+
+footer {
+  background-color: #F7F7F7;
+  color: #7A288A;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  border-top: 5px solid #7A288A;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
